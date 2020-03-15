@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="who_is_the_president_of_russia">Who is the president of Russia?</string>
+    <string name="hint">hint</string>
+
+    <string name="vladmir_putin">Vladmir Putin</string>
+    <string name="type_in_annswer_here">Type in annswer here</string>
+    <string name="type_in_question_herre">Type in question herre</string>
+</resources>
