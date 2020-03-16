@@ -16,6 +16,18 @@
     android:contentDescription="@string/hint"
     android:src="@drawable/ic_iconmonstr_plus_6" />
 
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/hint"
+        android:src="@drawable/ic_next" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="372dp"
