@@ -19,14 +19,14 @@ public class AddCardActivity extends AppCompatActivity {
                 finish();
             }
         });
-        findViewById(R.id.save).setOnClickListener(new View.OnClickListener() {
+       /* findViewById(R.id.save).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AddCardActivity.this, MainActivity.class);
                 AddCardActivity.this.startActivityForResult(intent, 100);
                 ((EditText) findViewById(R.id.editText)).getText().toString();
             }
-        });
+        });*/
 
         findViewById(R.id.save).setOnClickListener(new View.OnClickListener() {
 

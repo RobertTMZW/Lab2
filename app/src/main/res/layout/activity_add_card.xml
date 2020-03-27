@@ -17,7 +17,7 @@
         android:layout_marginTop="249dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/type_in_annswer_here"
+        android:hint="@string/type_in_answer_here"
         android:inputType="textPersonName"
         android:singleLine="false"
         tools:targetApi="o" />
@@ -42,7 +42,7 @@
         android:layout_marginTop="91dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/type_in_question_herre"
+        android:hint="@string/type_in_question_here"
         android:inputType="textMultiLine" />
     <ImageView
         android:id="@+id/save"

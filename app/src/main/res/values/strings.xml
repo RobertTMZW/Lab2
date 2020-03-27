@@ -6,4 +6,6 @@
     <string name="vladmir_putin">Vladmir Putin</string>
     <string name="type_in_annswer_here">Type in annswer here</string>
     <string name="type_in_question_herre">Type in question herre</string>
+    <string name="type_in_answer_here">Type in answer here</string>
+    <string name="type_in_question_here">Type in question here</string>
 </resources>
