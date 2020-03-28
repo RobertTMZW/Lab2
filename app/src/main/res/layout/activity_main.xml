@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
+    android:background="#AF4B4B"
+    android:backgroundTint="#B5AEC8"
     tools:context=".MainActivity">
 
     <ImageView
@@ -12,9 +14,9 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignParentEnd="true"
-    android:layout_alignParentBottom="true"
-    android:contentDescription="@string/hint"
-    android:src="@drawable/ic_iconmonstr_plus_6" />
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/hint"
+        android:src="@drawable/ic_iconmonstr_plus_6" />
 
     <ImageView
         android:id="@+id/next_button"
@@ -48,9 +50,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="118dp"
         android:layout_marginEnd="19dp"
+        android:background="#2693BF"
         android:text="@string/who_is_the_president_of_russia"
         android:textAlignment="center"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/flashcard_answer"
@@ -61,6 +65,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="118dp"
         android:layout_marginEnd="19dp"
+        android:background="#2CEA0A"
         android:text="@string/vladmir_putin"
         android:textAlignment="center"
         android:textSize="36sp"

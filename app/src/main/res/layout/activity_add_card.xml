@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#AF4B4B"
+    android:backgroundTint="#B5AEC8"
     tools:context=".AddCardActivity">
 
     <EditText
@@ -44,6 +46,7 @@
         android:ems="10"
         android:hint="@string/type_in_question_here"
         android:inputType="textMultiLine" />
+
     <ImageView
         android:id="@+id/save"
         android:layout_width="40dp"

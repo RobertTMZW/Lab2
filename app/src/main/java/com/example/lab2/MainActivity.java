@@ -3,6 +3,7 @@ package com.example.lab2;
 import android.animation.Animator;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.Animation;
@@ -63,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, AddCardActivity.class);
                 MainActivity.this.startActivityForResult(intent,100 );
-                Intent i = new Intent(MainActivity.this, AddCardActivity.class);
-                startActivity(i);
+               // Intent i = new Intent(MainActivity.this, AddCardActivity.class);
+                //startActivity(i);
                 overridePendingTransition(R.anim.right_in, R.anim.left_out);
 
             }
@@ -83,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // advance our pointer index so we can show the next card
                 currentCardDisplayedIndex++;
+
 
                 // make sure we don't get an IndexOutOfBoundsError if we are viewing the last indexed card in our list
                 if (currentCardDisplayedIndex > allFlashcards.size() - 1) {
@@ -115,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.flashcard_question).startAnimation(leftOutAnim);
                 findViewById(R.id.flashcard_question).startAnimation(rightInAnim);
             }
+
         });
         findViewById(R.id.deleteBtn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,6 +127,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        countDownTimer = new CountDownTimer(16000, 1000) {
+            public void onTick(long millisUntilFinished) {
+                ((TextView) findViewById(R.id.timer)).setText("" + millisUntilFinished / 1000);
+            }
+
+            public void onFinish() {
+            }
+        };
+
 
     }
 
@@ -148,6 +161,9 @@ public class MainActivity extends AppCompatActivity {
     int currentCardDisplayedIndex = 0;
         FlashcardDatabase flashcardDatabase;
     List<Flashcard> allFlashcards;
+    CountDownTimer countDownTimer;
+
+
 
 }
 
