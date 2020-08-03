@@ -1,5 +1,5 @@
 # Lab4
-Flashcard App with some animations(extra features coming soon)
+Flashcard App making use of databases and some animations(extra features coming soon)
 
 
 ### App Walk-though
