@@ -4,7 +4,7 @@ Flashcard App making use of databases and some animations(extra features coming 
 
 ### App Walk-though
 
-<img src="https://i.imgur.com/ErIlh2K.gif" width=200><br><img src="https://imgur.com/a/t19TJJ6.gif" width=200><br>
+<img src="https://i.imgur.com/ErIlh2K.gif" width=200><br><img src="https://i.imgur.com/i9YTDnm.gif" width=200><br>
 
 
 ## Required
