@@ -4,7 +4,7 @@ Flashcard App making use of databases and some animations(extra features coming 
 
 ### App Walk-though
 
-<img src="https://i.imgur.com/ErIlh2K.gif" width=200><br>
+<img src="https://i.imgur.com/ErIlh2K.gif" width=200><br><img src="https://imgur.com/a/t19TJJ6.gif" width=200><br>
 
 
 ## Required
@@ -14,6 +14,6 @@ Flashcard App making use of databases and some animations(extra features coming 
 
 ## Optional
 - [x] Extra styling is added!
-- [ ] User sees a countdown timer for each question
+- [x] User sees a countdown timer for each question
 - [ ] User sees a 'card flip' animation when the card is tapped
 - [ ] User sees a celebration animation with confetti when they answer a question correctly
